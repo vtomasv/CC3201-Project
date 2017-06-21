@@ -1,0 +1,70 @@
+{
+  "environment" : {
+      "developer" : true,
+      "port" : 9090
+  },
+  "dataBase" : {
+    "password": "enano hijo triple",
+    "userName" : "cc3201",
+    "host" : "cc3201.dcc.uchile.cl",
+    "port" : "5420",
+    "schema": "cc3201"
+
+  },
+  "ReD1": {
+    "security": {
+      "user": "kvz@user.com",
+      "password": "crEzekEPheSP2stekupeVaPEdeJubraS"
+    },
+    "service": {
+      "endpoint": "lp-api-ist1.payments-portal.com",
+      "port" : "5443",
+      "protocol" : "https://",
+      "headers" : {
+            "Connection"  : "Close",
+            "Content-Type"  : "application/xml"
+          }
+
+    },
+    "prod": {
+      "message":{
+            "S_KEY_ID"        : "193",
+            "DIV_NUM"         : "kvz_rs",
+            "EBT_Name"        : "077830000001",
+            "EBT_Service"     : "I",
+            "ACT_CD"          : "OA",
+            "REQ_TYPE_CD"     : "E",
+            "ORD_ID"          : "12345",
+            "ORD_DTM"         : "2017-02-27 00:01:00",
+            "ORD_TZ"          : "-4",
+            "AMT"             : "100",
+            "SLS_TAX_AMT"     : "0",
+            "FRT_AMT"         : "0",
+            "CURR_CD"         : "CPL",
+            "MOP_TYPE_CD"     : "AX",
+            "ACCT_NUM"        : "1111222233334444",
+            "CARD_EXP_DT"     : "082030"
+          }
+        },
+    "dev" :{
+      "message":{
+          "S_KEY_ID"        : "193",
+          "DIV_NUM"         : "kvz_rs",
+          "EBT_Name"        : "077830000001",
+          "EBT_Service"     : "A",
+          "ACT_CD"          : "OA",
+          "REQ_TYPE_CD"     : "E",
+          "ORD_ID"          : "12345",
+          "ORD_DTM"         : "2017-02-27 00:01:00",
+          "ORD_TZ"          : "-4",
+          "AMT"             : "100",
+          "SLS_TAX_AMT"     : "0",
+          "FRT_AMT"         : "0",
+          "CURR_CD"         : "CPL",
+          "MOP_TYPE_CD"     : "AX",
+          "ACCT_NUM"        : "1111222233334444",
+          "CARD_EXP_DT"     : "082030"
+        }
+    }
+  }
+}
